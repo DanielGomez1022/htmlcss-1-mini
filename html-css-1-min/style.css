@@ -20,18 +20,19 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    /* font: inherit; */
+    font-family: 'Ravi Prakash', cursive;
     vertical-align: baseline;
-
+    box-sizing: border-box;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background: white;
 }
 ol, ul {
 	list-style: none;
@@ -50,31 +51,73 @@ table {
 }
 
 
-
-
-header{
+header {
     background:black;
-    height:100px;
-    padding:30px;
+    height: 100px;
+    padding: 30px;
 }
 
-
-.logo{
+.logo, .menu {
     color:black;
-    background:white;
-    height:40px;
+    background: white;
+    height: 40px;
+    width: 400px;
+}
+
+.logo {
+    float: left;
+    width: 140px;
+}
+
+.menu {
+    float: right;
+}
+
+.container {
     
 }
-.menu{
-    color:black;
-    background:white;
-    height:40px;
+
+.content {
+    background: black;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    margin: 75px auto;
+    padding-top: 15px;
+    height:250px;
+    border-bottom:1px black;
 }
-.logo{
-    float:left;
-    width: 100px;
+
+.line1, .line2, .line3 {
+    background: white;
+    margin: 15px auto;
+    border: 1px black solid;
 }
-.menu{
-    float:right;
-    width: 253px
+
+.line1 {
+    width: 75%;
+    height: 50px;
+}
+
+.line2 {
+    width: 63%;
+    height: 50px;
+}
+
+.line3 {
+    width: 70%;
+    background: black;
+}
+
+.pill {
+    background: white;
+    height: 30px;
+    display: inline-block;
+    width: 49%;
+    border-radius: 25px;
+    border: 1px white solid;
+}
+.percents{
+    color:white;
+    margin: 25px;
 }
