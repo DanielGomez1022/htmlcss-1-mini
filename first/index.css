@@ -1,0 +1,21 @@
+body{
+  background: grey;
+
+}
+header{
+background: rgb(71, 70, 70);
+width:1346px;
+height:100px;
+}
+ .main-content{
+    background-color: rgb(238, 234, 234);
+    margin:0 auto;
+    width: 1000px;
+    height: 1000px;
+}
+.footer{
+    background-color: rgb(37, 36, 36);
+    margin: 0 auto;
+    width:1000px;
+    height:100px;
+} 
